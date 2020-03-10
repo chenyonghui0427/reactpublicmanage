@@ -1,0 +1,36 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url('../../assets/images/sign_bg.png');
+    background-repeat: no-repeat;
+    background-color: #b8e5f8;
+    background-size: cover;
+}
+.left{
+    width: 500px;
+}
+.right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.login_container{
+    width: 400px;
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    padding: 24px;
+    background: #fff;
+}
+.login_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+.line{
+    transition: 0.2s;
+    border-top: 1px red solid;
+    margin: auto;
+}

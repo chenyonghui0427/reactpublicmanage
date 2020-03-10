@@ -1,0 +1,16 @@
+.top_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 50px;
+     background: #fff;
+     box-sizing:border-box;
+     box-sizing: border-box;
+}
+.collapse{
+    line-height: 50px;
+    font-size: 20px;
+}
+.avatar{
+}
